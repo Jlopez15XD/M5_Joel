@@ -9,8 +9,9 @@ public class Main {
         for(i=0; i < cotxe.length ; i++){
             System.out.println(cotxe[i]);
         }
+        imp_nom2();
     }
-
+    
     /*
      * He de crear la vostra pròpia funció ex: imp_Pep(String alumne){...}
      * Entrada: un String amb el vostre nom
@@ -20,6 +21,16 @@ public class Main {
         alumne = "Joel";
         System.out.println("Els cotxes preferits de l'alumne " + alumne);
     }
+    public static void imp_nom2 (){
+        String alumne = "Joel";
+        System.out.println(alumne);
+        System.out.println(alumne);
+    }
 }
+
+    
+
+
+
 
 
